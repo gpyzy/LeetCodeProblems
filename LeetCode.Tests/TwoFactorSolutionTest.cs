@@ -16,14 +16,14 @@ namespace LeetCode.Tests
 		public void Solution1_FindTwoNumber_Found(int[] numbers, int target)
 		{
 			int[] indicies = new int[0];
-			var sw = new Stopwatch();
-			sw.LogResult(() =>
-			{
-				var result = TwoSumSolution.Solution1(numbers, target, ref indicies);
-				Assert.True(result);
-				Assert.True(indicies.Length == 2);
-				Assert.True(numbers[indicies[0]] + numbers[indicies[1]] == target);
-			}, PERFORMANCE_TEST_ITERATION, "Solution1_FindTwoNumber_Found");
+			//var sw = new Stopwatch();
+			//sw.LogResult(() =>
+			//{
+			var result = TwoSumSolution.Solution1(numbers, target, ref indicies);
+			Assert.True(result);
+			Assert.True(indicies.Length == 2);
+			Assert.True(numbers[indicies[0]] + numbers[indicies[1]] == target);
+			//}, PERFORMANCE_TEST_ITERATION, "Solution1_FindTwoNumber_Found");
 
 		}
 
@@ -34,13 +34,13 @@ namespace LeetCode.Tests
 		public void Solution1_FindTwoNumber_NotFound(int[] numbers, int target)
 		{
 			int[] indicies = new int[0];
-			var sw = new Stopwatch();
+			//var sw = new Stopwatch();
 
-			sw.LogResult(() =>
-			{
-				var result = TwoSumSolution.Solution1(numbers, target, ref indicies);
-				Assert.True(!result);
-			}, PERFORMANCE_TEST_ITERATION, "Solution1_FindTwoNumber_NotFound");
+			//sw.LogResult(() =>
+			//{
+			var result = TwoSumSolution.Solution1(numbers, target, ref indicies);
+			Assert.True(!result);
+			//}, PERFORMANCE_TEST_ITERATION, "Solution1_FindTwoNumber_NotFound");
 
 		}
 
@@ -51,14 +51,14 @@ namespace LeetCode.Tests
 		{
 			int[] indicies = new int[0];
 
-			var sw = new Stopwatch();
-			sw.LogResult(() =>
-			{
-				var result = TwoSumSolution.Solution2(numbers, target, ref indicies);
-				Assert.True(result);
-				Assert.True(indicies.Length == 2);
-				Assert.True(numbers[indicies[0]] + numbers[indicies[1]] == target);
-			}, PERFORMANCE_TEST_ITERATION, "Solution2_FindTwoNumber_Found");
+			//var sw = new Stopwatch();
+			//sw.LogResult(() =>
+			//{
+			var result = TwoSumSolution.Solution2(numbers, target, ref indicies);
+			Assert.True(result);
+			Assert.True(indicies.Length == 2);
+			Assert.True(numbers[indicies[0]] + numbers[indicies[1]] == target);
+			//}, PERFORMANCE_TEST_ITERATION, "Solution2_FindTwoNumber_Found");
 		}
 
 		[Test()]
@@ -68,12 +68,12 @@ namespace LeetCode.Tests
 		public void Solution2_FindTwoNumber_NotFound(int[] numbers, int target)
 		{
 			int[] indicies = new int[0];
-			var sw = new Stopwatch();
-			sw.LogResult(() =>
-			{
-				var result = TwoSumSolution.Solution1(numbers, target, ref indicies);
-				Assert.True(!result);
-			}, PERFORMANCE_TEST_ITERATION, "Solution2_FindTwoNumber_NotFound");
+			//var sw = new Stopwatch();
+			//sw.LogResult(() =>
+			//{
+			var result = TwoSumSolution.Solution1(numbers, target, ref indicies);
+			Assert.True(!result);
+			//}, PERFORMANCE_TEST_ITERATION, "Solution2_FindTwoNumber_NotFound");
 		}
 	}
 }
