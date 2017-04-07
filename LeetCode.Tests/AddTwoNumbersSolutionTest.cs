@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using LeetCode.DataStructures;
+using LeetCode.Solutions;
 using NUnit.Framework;
 
 namespace LeetCode.Tests
@@ -21,7 +22,7 @@ namespace LeetCode.Tests
 			var node1 = Array2ListNode(a1);
 			var node2 = Array2ListNode(a2);
 
-			var result = LeetCode.AddTwoNumbersSolution.Solution1(node1, node2);
+			var result = AddTwoNumbersSolution.Solution1(node1, node2);
 
 			return ListNode2Array(result);
 		}
@@ -34,7 +35,7 @@ namespace LeetCode.Tests
 			var node1 = Array2ListNode(a1);
 			var node2 = Array2ListNode(a2);
 
-			var result = LeetCode.AddTwoNumbersSolution.Solution1(node1, node2);
+			var result = AddTwoNumbersSolution.Solution1(node1, node2);
 
 			return ListNode2Array(result);
 		}
@@ -48,7 +49,7 @@ namespace LeetCode.Tests
 			var node1 = Array2ListNode(a1);
 			var node2 = Array2ListNode(a2);
 
-			LeetCode.AddTwoNumbersSolution.Solution1(node1, node2);
+			AddTwoNumbersSolution.Solution1(node1, node2);
 
 			//return ListNode2Array(result);
 		}

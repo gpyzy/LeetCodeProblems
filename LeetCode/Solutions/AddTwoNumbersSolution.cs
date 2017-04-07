@@ -1,6 +1,6 @@
 ﻿using System;
 using LeetCode.DataStructures;
-namespace LeetCode
+namespace LeetCode.Solutions
 {
 	public static class AddTwoNumbersSolution
 	{
@@ -43,11 +43,6 @@ namespace LeetCode
 			{
 				throw new ArgumentException("the value must be greater than 0");
 			}
-
-			//if (val1 == 0 && val2 == 0 && carry == 0)
-			//{
-			//	return;
-			//}
 
 			var value = val1 + val2 + carry;
 

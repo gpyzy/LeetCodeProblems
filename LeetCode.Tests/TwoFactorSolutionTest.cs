@@ -1,6 +1,8 @@
 ﻿using NUnit.Framework;
 using System;
 using System.Diagnostics;
+using LeetCode.Solutions;
+
 namespace LeetCode.Tests
 {
 

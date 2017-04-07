@@ -34,6 +34,7 @@
     <Compile Include="TwoFactorSolutionTest.cs" />
     <Compile Include="StopwatchExtensions.cs" />
     <Compile Include="AddTwoNumbersSolutionTest.cs" />
+    <Compile Include="LengthOfLongestSubstringSolutionTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
