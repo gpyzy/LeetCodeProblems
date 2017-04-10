@@ -20,7 +20,7 @@ namespace LeetCode.Solutions
 	/// </summary>
 	public static class LengthOfLongestSubstringSolution
 	{
-		
+
 		public static int Solution(String s)
 		{
 			var max = 0;

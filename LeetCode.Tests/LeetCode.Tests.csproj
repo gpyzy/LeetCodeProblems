@@ -35,6 +35,7 @@
     <Compile Include="StopwatchExtensions.cs" />
     <Compile Include="AddTwoNumbersSolutionTest.cs" />
     <Compile Include="LengthOfLongestSubstringSolutionTest.cs" />
+    <Compile Include="LongestPalindromeSolutionTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

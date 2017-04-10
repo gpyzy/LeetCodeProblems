@@ -38,6 +38,7 @@
     <Compile Include="Solutions\AddTwoNumbersSolution.cs" />
     <Compile Include="DataStructures\ListNode.cs" />
     <Compile Include="Solutions\LengthOfLongestSubstringSolution.cs" />
+    <Compile Include="Solutions\LongestPalindromeSolution.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solutions\" />
