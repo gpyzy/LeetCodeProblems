@@ -25,6 +25,7 @@ namespace LeetCode.Tests
         [Test]
         //[TestCase(1234567899, ExpectedResult = 0)]
         [TestCase(-1234567899, ExpectedResult = 0)]
+        [TestCase(1563847412, ExpectedResult = 0)]
         public int Solution_Overflow_Return_0_Success(int x)
         {
             return LeetCode.Solutions.ReverseSolution.Solution(x);
@@ -36,5 +37,6 @@ namespace LeetCode.Tests
         {
             return LeetCode.Solutions.ReverseSolution.Solution(x);
         }
+
     }
 }

@@ -22,14 +22,14 @@ namespace LeetCode.Solutions
 
                 if (x > 0)
                 {
-                    if (int.MaxValue / 10 + tail < result)
+                    if (int.MaxValue / 10.0 < result + tail / 10.0)
                     {
                         return 0;
                     }
                 }
                 else
                 {
-                    if (int.MinValue / 10 + tail > result)
+                    if (int.MinValue / 10.0 > result + tail / 10.0)
                     {
                         return 0;
                     }
