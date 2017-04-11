@@ -36,15 +36,16 @@
     <Compile Include="AddTwoNumbersSolutionTest.cs" />
     <Compile Include="LengthOfLongestSubstringSolutionTest.cs" />
     <Compile Include="LongestPalindromeSolutionTest.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
+    <Compile Include="ReverseSolutionTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode\LeetCode.csproj">
       <Project>{615ABA11-2F32-484D-8467-D13CBDC950F2}</Project>
       <Name>LeetCode</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
