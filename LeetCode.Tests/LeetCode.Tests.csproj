@@ -39,6 +39,7 @@
     <Compile Include="ReverseSolutionTest.cs" />
     <Compile Include="MyAtoiSolutionTest.cs" />
     <Compile Include="IsPalindromeSolutionTest.cs" />
+    <Compile Include="ExcelColumnSolutionTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode\LeetCode.csproj">

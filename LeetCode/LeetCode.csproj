@@ -42,6 +42,7 @@
     <Compile Include="Solutions\ReverseSolution.cs" />
     <Compile Include="Solutions\MyAtoiSolution.cs" />
     <Compile Include="Solutions\IsPalindromeSolution.cs" />
+    <Compile Include="Solutions\ExcelColumnSolution.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solutions\" />
