@@ -37,6 +37,8 @@
     <Compile Include="LengthOfLongestSubstringSolutionTest.cs" />
     <Compile Include="LongestPalindromeSolutionTest.cs" />
     <Compile Include="ReverseSolutionTest.cs" />
+    <Compile Include="MyAtoiSolutionTest.cs" />
+    <Compile Include="IsPalindromeSolutionTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode\LeetCode.csproj">

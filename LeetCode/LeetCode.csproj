@@ -40,6 +40,8 @@
     <Compile Include="Solutions\LengthOfLongestSubstringSolution.cs" />
     <Compile Include="Solutions\LongestPalindromeSolution.cs" />
     <Compile Include="Solutions\ReverseSolution.cs" />
+    <Compile Include="Solutions\MyAtoiSolution.cs" />
+    <Compile Include="Solutions\IsPalindromeSolution.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solutions\" />
